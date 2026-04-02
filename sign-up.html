@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up - Selar</title>
+    <link rel="stylesheet" href="sign-up.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div id="navlogo">
+        <a href="index.html"
+          ><img src="images/download.png" alt="Selar logo"
+        /></a>
+      </div>
+      <ul id="navlinks">
+        <li><a href="">How it Works</a></li>
+        <li><a href="">Pricing</a></li>
+        <li><a href="">Features</a></li>
+        <li><a href="">Learn</a></li>
+        <li><a href="">Affiliate Network</a></li>
+        <li><a href="">EN</a></li>
+        <li><a href="log-in.html">Log In</a></li>
+        <li><a href="sign-up.html" id="start">Start Selling</a></li>
+      </ul>
+    </nav>
+
+    <div id="page">
+      <div id="form-side">
+        <div id="progress">
+          <div class="step active"></div>
+          <div class="step"></div>
+          <div class="step"></div>
+        </div>
+
+        <div id="text">
+          <h1>Create your Selar account</h1>
+          <p>Already have an account? <a href="log-in.html">Log in</a></p>
+        </div>
+
+        <form action="" id="signup">
+          <div id="name-row">
+            <div class="body">
+              <label for="firstname">First Name</label>
+              <input type="text" id="firstname" placeholder="John" />
+            </div>
+            <div class="body">
+              <label for="lastname">Last Name</label>
+              <input type="text" id="lastname" placeholder="Doe" />
+            </div>
+          </div>
+
+          <div class="body">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="janedoe@email.com" />
+          </div>
+
+          <div class="body">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="••••••••" />
+          </div>
+
+          <a href="" id="forgot">Forgot password?</a>
+
+          <ul id="rules">
+            <li>Must contain 8 characters</li>
+            <li>Must contain a letter</li>
+            <li>Must contain a number</li>
+          </ul>
+
+          <div class="body">
+            <label for="confirm-password">Confirm password</label>
+            <input
+              type="password"
+              id="confirm-password"
+              placeholder="••••••••"
+            />
+          </div>
+
+          <button type="submit" id="reg">Create Account</button>
+           <p id="divider">OR</p>
+ 
+          <!-- SOCIAL BUTTONS -->
+          <div class="others">
+            <img src="images/download.jfif" alt="Google" />
+            <p>Sign up with Google</p>
+          </div>
+ 
+          <div class="others">
+            <img src="images/download (1).png" alt="X" />
+            <p>Sign up with X (or Twitter)</p>
+          </div>
+ 
+          <div class="others">
+            <img src="images/download (2).png" alt="Facebook" />
+            <p>Sign up with Facebook</p>
+          </div>
+        </form>
+      </div>
+
+      <div id="promo-side">
+        <h2>Join 1,500,000 + Selar users today!</h2>
+        <p>
+          Selar allows you to buy and sell any kind of digital product or
+          service anywhere in the world seamlessly.
+        </p>
+
+        <img src="images/store-mockup.png " alt="" />
+      </div>
+    </div>
+
+    <div id="chat-icon">
+      <i class="fa-regular fa-comment-dots"></i>
+    </div>
+  </body>
+</html>
